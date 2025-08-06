@@ -1,0 +1,10 @@
+current_age = int(input("How old are you? "))
+
+def life_in_weeks(age):
+    weeks_in_year = 52
+    weeks_in_life = 52*90
+    weeks_lived = age*weeks_in_year
+    weeks_left = weeks_in_life - weeks_lived
+    print(f" You have {weeks_left} weeks left.")
+    
+life_in_weeks(current_age)
